@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "net.logandark.barebones.mixin",
+	"package": "net.logandark.sectionsign.mixin",
 	"compatibilityLevel": "JAVA_8",
-	"mixins": [],
-	"client": ["AntiCoronavirus"],
+	"mixins": ["MixinSharedConstants"],
+	"client": [],
 	"server": [],
 	"injectors": {
 		"defaultRequire": 1
